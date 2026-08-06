@@ -1,7 +1,7 @@
-import PageHeader from '../components/ui/PageHeader';
-import { assets } from '../data/mockData';
+import PageHeader from '@/components/ui/PageHeader';
+import { assets } from '@/data/mockData';
 
-function AssetsPage() {
+export default function AssetsPage() {
   return (
     <div className="page-stack">
       <PageHeader
@@ -49,5 +49,3 @@ function AssetsPage() {
     </div>
   );
 }
-
-export default AssetsPage;

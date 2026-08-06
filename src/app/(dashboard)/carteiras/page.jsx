@@ -1,7 +1,7 @@
-import PageHeader from '../components/ui/PageHeader';
-import { portfolios } from '../data/mockData';
+import PageHeader from '@/components/ui/PageHeader';
+import { portfolios } from '@/data/mockData';
 
-function PortfoliosPage() {
+export default function PortfoliosPage() {
   return (
     <div className="page-stack">
       <PageHeader
@@ -45,5 +45,3 @@ function PortfoliosPage() {
     </div>
   );
 }
-
-export default PortfoliosPage;

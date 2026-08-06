@@ -1,11 +1,14 @@
-import { Link, useNavigate } from 'react-router-dom';
+'use client';
 
-function LoginPage() {
-  const navigate = useNavigate();
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+
+export default function LoginPage() {
+  const router = useRouter();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate('/dashboard');
+    router.push('/dashboard');
   };
 
   return (
@@ -25,16 +28,14 @@ function LoginPage() {
         </button>
       </form>
 
-      <button type="button" className="btn-demo" onClick={() => navigate('/dashboard')}>
+      <button type="button" className="btn-demo" onClick={() => router.push('/dashboard')}>
         Acessar demonstração
       </button>
 
       <div className="auth-footer">
         <span>Não possui conta?</span>
-        <Link to="/cadastro">Criar conta</Link>
+        <Link to="/cadastro" href="/cadastro">Criar conta</Link>
       </div>
     </div>
   );
 }
-
-export default LoginPage;

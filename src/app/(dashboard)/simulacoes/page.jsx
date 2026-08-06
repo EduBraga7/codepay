@@ -1,3 +1,5 @@
+'use client';
+
 import {
   Area,
   AreaChart,
@@ -6,7 +8,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
-import PageHeader from '../components/ui/PageHeader';
+import PageHeader from '@/components/ui/PageHeader';
 
 const simulationData = [
   { month: '0', invested: 10000, projected: 10000 },
@@ -17,7 +19,7 @@ const simulationData = [
   { month: '60', invested: 70000, projected: 124800 },
 ];
 
-function SimulationsPage() {
+export default function SimulationsPage() {
   return (
     <div className="page-stack">
       <PageHeader
@@ -88,5 +90,3 @@ function SimulationsPage() {
     </div>
   );
 }
-
-export default SimulationsPage;

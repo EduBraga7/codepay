@@ -1,7 +1,7 @@
-import PageHeader from '../components/ui/PageHeader';
-import { transactions } from '../data/mockData';
+import PageHeader from '@/components/ui/PageHeader';
+import { transactions } from '@/data/mockData';
 
-function TransactionsPage() {
+export default function TransactionsPage() {
   return (
     <div className="page-stack">
       <PageHeader
@@ -69,5 +69,3 @@ function TransactionsPage() {
     </div>
   );
 }
-
-export default TransactionsPage;

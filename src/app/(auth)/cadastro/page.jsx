@@ -1,11 +1,14 @@
-import { Link, useNavigate } from 'react-router-dom';
+'use client';
 
-function RegisterPage() {
-  const navigate = useNavigate();
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+
+export default function RegisterPage() {
+  const router = useRouter();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate('/dashboard');
+    router.push('/dashboard');
   };
 
   return (
@@ -36,10 +39,8 @@ function RegisterPage() {
 
       <div className="auth-footer">
         <span>Já possui conta?</span>
-        <Link to="/login">Fazer login</Link>
+        <Link href="/login">Fazer login</Link>
       </div>
     </div>
   );
 }
-
-export default RegisterPage;

@@ -1,4 +1,9 @@
 node_modules
+.next
+out
+build
 .vscode
 .DS_Store
 dist
+*.log
+.env*.local

@@ -1,7 +1,6 @@
 import { BarChart3 } from 'lucide-react';
-import { Outlet } from 'react-router-dom';
 
-function AuthLayout() {
+export default function AuthLayout({ children }) {
   return (
     <div className="auth-shell">
       <aside className="auth-highlight">
@@ -21,11 +20,7 @@ function AuthLayout() {
         <div className="auth-graphic" aria-hidden="true" />
       </aside>
 
-      <section className="auth-content">
-        <Outlet />
-      </section>
+      <section className="auth-content">{children}</section>
     </div>
   );
 }
-
-export default AuthLayout;

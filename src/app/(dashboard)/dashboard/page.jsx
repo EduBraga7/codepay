@@ -1,3 +1,5 @@
+'use client';
+
 import {
   CartesianGrid,
   Cell,
@@ -10,18 +12,18 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
-import SummaryCard from '../components/ui/SummaryCard';
+import SummaryCard from '@/components/ui/SummaryCard';
 import {
   allocationData,
   patrimonioHistory,
   recentMovements,
   summaryCards,
-} from '../data/mockData';
+} from '@/data/mockData';
 
 const formatCurrency = (value) =>
   `R$ ${Number(value).toLocaleString('pt-BR', { minimumFractionDigits: 0 })}`;
 
-function DashboardPage() {
+export default function DashboardPage() {
   return (
     <div className="dashboard-grid">
       <section className="summary-grid">
@@ -158,5 +160,3 @@ function DashboardPage() {
     </div>
   );
 }
-
-export default DashboardPage;
