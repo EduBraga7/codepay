@@ -1,13 +1,11 @@
-function PageHeader({ title, subtitle, action }) {
+export default function PageHeader({ title, subtitle, action }) {
   return (
-    <div className="page-header">
+    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
       <div>
-        <h2>{title}</h2>
-        {subtitle ? <p>{subtitle}</p> : null}
+        <h1 className="text-2xl font-bold text-slate-900">{title}</h1>
+        {subtitle ? <p className="text-sm text-slate-500 mt-1">{subtitle}</p> : null}
       </div>
       {action ?? null}
     </div>
   );
 }
-
-export default PageHeader;

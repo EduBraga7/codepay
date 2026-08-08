@@ -156,13 +156,4 @@ export const transactions = [
     unitPrice: 'R$ 600,00',
     total: 'R$ 600,00',
   },
-  {
-    date: '05/05/2026',
-    operation: 'Compra',
-    category: 'Ação',
-    asset: 'WEGE3',
-    quantity: 15,
-    unitPrice: 'R$ 39,90',
-    total: 'R$ 598,50',
-  },
 ];

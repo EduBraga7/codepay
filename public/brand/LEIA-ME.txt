@@ -1,0 +1,36 @@
+CodePay — Pacote de Logo v2 (Candlesticks)
+================================================
+
+/svg
+  Arquivos vetoriais (editáveis, redimensionam sem perder qualidade).
+  Use estes para abrir/editar no Figma, Illustrator, Canva, Inkscape.
+
+  - icon-primary.svg             -> ícone fundo navy / candlesticks verdes (uso padrão)
+  - icon-inverse.svg             -> ícone fundo verde / candlesticks navy (uso alternativo)
+  - icon-mono-black.svg          -> versão só-contorno navy, para fundo claro / impressão P&B
+  - icon-mono-white.svg          -> versão só-contorno branca, para fundo escuro
+  - lockup-horizontal-light.svg  -> logo completo (ícone + "CodePay"), para fundo claro
+  - lockup-horizontal-dark.svg   -> logo completo, para fundo escuro/navy
+  - lockup-stacked.svg           -> ícone em cima, nome embaixo (bom para post quadrado / capa)
+
+/png/icones
+  Versões em PNG 512x512 (transparente) dos 4 ícones acima.
+  Use para inserir em PowerPoint, Word, Figma sem precisar de SVG.
+
+/png/favicon
+  favicon-16.png, favicon-32.png, favicon-48.png, favicon-64.png
+  favicon.ico -> pacote multi-tamanho pronto para <link rel="icon"> no front-end
+
+/png/lockups
+  Versões em PNG do logo completo (claro, escuro, empilhado), prontas para slides/documentos.
+
+Conceito: 3 candlesticks (velas de gráfico de mercado) — comunica investimentos
+de forma direta e reconhecível.
+
+Cores oficiais:
+  Navy   #0B1F3A
+  Green  #00C896
+
+Observação: os PNGs foram exportados com fonte de fallback do sistema.
+Se for usar o wordmark em alta resolução (banner, capa impressa), prefira o SVG
+e garanta que a fonte Manrope (Google Fonts) esteja instalada/embutida.

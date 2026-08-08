@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 320 80">
+<rect width="320" height="80" fill="#0B1F3A"/>
+<rect x="6" y="19" width="42" height="42" rx="11" fill="#00C896"/>
+<line x1="18.5" y1="29" x2="18.5" y2="51" stroke="#0B1F3A" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="16" y="35" width="5" height="10" rx="1.4" fill="#0B1F3A"/>
+<line x1="27" y1="26" x2="27" y2="54" stroke="#0B1F3A" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="24.5" y="31" width="5" height="18" rx="1.4" fill="#0B1F3A"/>
+<line x1="35.5" y1="31" x2="35.5" y2="47" stroke="#0B1F3A" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="33" y="35" width="5" height="10" rx="1.4" fill="#0B1F3A"/>
+<text x="64" y="50" font-family="Manrope, Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="-0.5" fill="#FFFFFF">Code<tspan fill="#00C896">Pay</tspan></text>
+</svg>
